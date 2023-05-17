@@ -1,0 +1,63 @@
+tr > td {
+    border: 1px black solid;
+    min-width: 150px;
+    text-align: center;
+    padding: 5px;
+}
+.order-form {
+    width: 20%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+.table-style {
+    margin: 0 auto;
+} 
+label , .input-style{
+    box-sizing: border-box;
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin-bottom: 5px;
+}
+.btn-order{
+    display: block;
+    margin: 0 auto;
+}
+.div-error {
+    padding: 5px;
+    display: inline-block;
+    border: 1px red solid;
+    margin-bottom: 10px;
+}
+.div-error span {
+    color: red;
+    font-weight: bold;
+}
+.container-table {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.emptyDiv{
+    border: 1px black dotted;
+    width: 95px;
+    text-align: center;
+}
+.trOrder{
+    position: relative;
+}
+.tdItem {
+    display: flex;
+    gap:20px;
+    justify-content: space-between;
+
+}
+td + button {
+    margin-left: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
